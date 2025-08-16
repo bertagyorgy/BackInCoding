@@ -118,4 +118,4 @@ def jatek(width=8, height=8, mines=10):
         flood_fill(board, mines_set, y, x, width, height, revealed)
 
 # Indítás
-jatek(5, 5, 2)
+jatek(5, 5, 2) #x-méret, y-méret, aknák száma
